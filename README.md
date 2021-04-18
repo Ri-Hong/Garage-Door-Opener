@@ -1,4 +1,4 @@
-# Garage-Door-Opener-Module-App
+# Garage Door Opener Module
 ## General Description
 The ESP01 Module is wired to the garage door opener. When the user taps a button on the app, the app sends a code via MQTT to the ESP01 Module, which then sends a one second pulse to the garage door opener, which opens the garage door. The ESP01 module must be connected to your home wifi network for the MQTT communication to work, however, the phone with the app can be connected to the internet in any way including using cellular data or wifi.
 
